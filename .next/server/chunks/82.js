@@ -1,0 +1,1 @@
+"use strict";exports.id=82,exports.ids=[82],exports.modules={9082:(e,t,r)=>{r.r(t),r.d(t,{$$typeof:()=>l,__esModule:()=>d,default:()=>i});var o=r(95153);let s=(0,o.createProxy)(String.raw`D:\MAI\MAI_Control_Soft\src\global\Sidebar.tsx`),{__esModule:d,$$typeof:l}=s,a=s.default,i=a}};
