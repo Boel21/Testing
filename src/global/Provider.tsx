@@ -10,8 +10,8 @@ interface RootLayoutProps {
 const Provider: React.FC<RootLayoutProps> = ({ children }) => {
   const [theme, colorMode] = useMode();
   return (
-    <ColorModeContext.Provider value={colorMode}>
-      <ThemeProvider theme={theme}>
+    <ColorModeContext.Provider value={colorMode as any}>
+      <ThemeProvider theme={theme as any}>
         <CssBaseline />
         {children}
       </ThemeProvider>
